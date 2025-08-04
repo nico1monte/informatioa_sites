@@ -6,6 +6,6 @@ Example:
 
 ![favicon.ico](./favicon.ico)
 
-This is a icon of this site, you can find this icon pressing this link >
+This is a icon of this site, you can find this icon pressing this link > [Click for view it.](https://raw.githubusercontent.com/nico1monte/informatioa_sites/refs/heads/main/public/favicon.ico)
 
 Please, don't edit this folder.
