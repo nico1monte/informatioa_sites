@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #000000;
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  margin-right: auto;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  left: 110%; /* Show to the right of the icon */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #444; /* Add this line */
+}
+</style>
+</head>
+<body class="App">
+  <div class="toolbar">
+  <img src="./public/icons/informatioasites.png" alt="Logo" class="logo" width="200" height="100" align="left">
+  <div class="tooltip">
+    <img src="./public/icons/add.svg" alt="Add site" class="add-site" width="30" height="30" align="right">
+    <span class="tooltiptext">Unavailable now</span>
+  </div>
+  <div class="tooltip">
+    <img src="./public/icons/account.svg" alt="Account" class="account" width="30" height="30" align="right">
+    <span class="tooltiptext">Unavailable now but you can see registered accounts.</span>
+  </div>
+</div>
+  </div>
+<div class="content">
+    <span style="color:white"><h1>CREATE AND EDIT</h1></span>
+    <span style="color:white">Create your site on this site!</span>
+<span class="tooltip">
+  <span style="color:white">More info</span>
+  <span class="tooltiptext">This is the version 1.0.0, this version it's not prepared for sites yet.</span>
+</span>
+    <img src="./public/icons/g_s_a_m.PNG" alt="gsam" width="600" height="400" align="right">
+</div>
+<div class="account_list">
+    <h2 style="color:white">Registered Accounts</h2>
+    <ul style="color:white">
+      <a href="./accounts/nico1monte.html">Nico1Monte</a> - Owner of the site
+    </ul>
+</div>
+</body>
+</html>
